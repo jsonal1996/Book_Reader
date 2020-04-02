@@ -1,0 +1,2 @@
+rootProject.name='Text to voice'
+include ':app'

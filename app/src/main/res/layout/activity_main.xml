@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center">
+    <ScrollView android:layout_width="600px" android:layout_height="600px" android:scrollbars="vertical" android:background="@drawable/scrollview">
+        <EditText android:id="@+id/txtFileContents" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </ScrollView>
+    <TableLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TableRow>
+            <Button android:id="@+id/btnOpen" android:text="Open"  android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@+id/btnSave" android:text="Save" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <Button android:id="@+id/btnSpeak" android:text="Speak"  android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@+id/btnClear" android:text="Clear Text"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
